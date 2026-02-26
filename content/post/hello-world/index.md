@@ -11,10 +11,59 @@ tags:
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
-Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!
+# **生物信息学学习日志|Bioinformatics Learning**
+---
 
-For more information about this theme, check the documentation: https://stack.jimmycai.com/
+## 第一堂课笔记
 
-Want a site like this? Check out [hugo-theme-stack-stater](https://github.com/CaiJimmy/hugo-theme-stack-starter)
+* 生物信息学的定义:<br>
+生物信息学是通过综合运用数学和信息科学等多领域的方法和工具对生物信息进行获取、加工、存储、分析和解释，来阐明大量生物数据所包含的生物学意义的学科。它是计算机科学、生物学与哲学学科交叉的结果。
 
-> Photo by [Pawel Czerwinski](https://unsplash.com/@pawel_czerwinski) on [Unsplash](https://unsplash.com/)
+* 概念辨析：模型与算法
+
+在课堂中，老师对这两个概念做了区分，我按自己理解陈述如下：
+
+| 区分 | 模型 (Model) | 算法 (Algorithm) |
+| :--- | :--- | :--- |
+| **定义** | **是对现实问题的数学抽象或概率描述。**<br>定义变量之间的关系结构。 | **求解模型参数、产生结果的具体计算步骤、方法。**<br>可以理解为一系列指令的集合。 |
+| **关注** | **如何用数学语言描述生物过程，用于理解** | **如何通过计算找到最优解，用于求解**|
+| **课堂案例** | **线性回归方程**等数学模型 <br>**神经网络架构**：定义层数和连接方式以概括。 | **排序 (编程中的Sort指令)**：将无序数字变为有序。<br>**动态规划**：用于比对、寻找最优解。 |
+| **小比喻** | **地图**：描述了地形，让人理解。 | **导航**：在地图上实现 *计算从A到B最短路径* 等目的的方法。 |
+
+* 科学范式的演变
+1.   **原本（Hypothesis-driven）**：预设假设，遵循**Question-Information-Analysis-Modeling**的顺序。
+2.   **第 4 范式 (Big Data-driven)**：从海量数据中挖掘关联，不预设假设，即**Information-Analysis-Modeling-Question**。
+3.   **第 5 范式 (AI-driven)**（预测）：利用**AI**进行多模态、多尺度的建模与生成，加速科学发现。
+
+---
+
+## 学期学习计划
+
+我准备遵循教学大纲中 **"Linux -> R -> Python/AI"** 的路线，重点培养**linux系统使用**的能力。
+
+第一阶段：基础环境设置与Linux
+*   **目标**：构建可供我使用的linux工作环境。
+*   **几小点**：
+    > 1. 熟练掌握 Linux 命令行 (即Bash语言)的基础指令，理解文件权限与操作。
+    > 2. 配置 **Docker** 环境，实现分析流程的容器化与可移植性。
+    > 3. 建立 **GitHub** 仓库，用 Markdown 记录文档和备份代码。（试图尝试让自己的网页变得更美观）    
+
+第二阶段：使用r语言进行数据分析与统计绘图并熟练掌握python
+*   **目标**：由于本人其实只学习过c++语言，所以在本学期掌握r语言和python也是我的一个目标
+*   **几小点**：
+    > 1. 熟练掌握 **R 语言＆python** ，特别是处理数据方面。
+    > 2. 掌握 **NGS 数据分析**。
+    > 3. 学习作图表。
+
+第三阶段：项目实战 
+*   **目标**：完成课程任务，并尝试进一步学习相关知识。
+*   **几小点**：
+    > 1. **小组项目**：
+    >    *   选择一个具体课题进行探究。
+    >    *   制作 PPT 并试图教会其他同学。
+    > 2. 尝试阅读进阶书籍《Bioinformatics Data Skills》等。
+
+---
+
+
+> 图片来自老师的课件~~
