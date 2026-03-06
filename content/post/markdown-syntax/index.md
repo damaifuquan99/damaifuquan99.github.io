@@ -1,7 +1,7 @@
 ---
-title: Markdown Syntax Guide
+title: SHY大人的花卉鉴赏论文
 date: 2023-09-07
-description: Sample article showcasing basic Markdown syntax and formatting for HTML elements.
+description: 日本动漫中的花卉原型考究
 tags: 
     - markdown
     - css
@@ -11,6 +11,7 @@ categories:
     - themes
     - syntax
 ---
+<iframe src="https://damaifuquan99.github.io/content/articles/日本动漫中的花卉原型考究--SHY大人.pdf" width="100%" height="800px"></iframe>
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
 
