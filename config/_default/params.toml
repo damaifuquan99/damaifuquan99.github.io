@@ -51,7 +51,20 @@ SortBy              = "default"
 ## Comments
 [comments]
     enabled  = true
-    provider = "disqus"
+    provider = "giscus"
+    
+    [comments.giscus]
+        repo = "damaifuquan99/damaifuquan99.github.io"
+        repoID = "R_kgDORZdtUw" 
+        category = "Announcements"
+        categoryID = "DIC_kwDORZdtU84C37Ia"
+        mapping = "pathname"
+        reactionsEnabled = 1
+        emitMetadata = 0
+        inputPosition = "top"
+        theme = "light"
+        lang = "zh-CN"
+        loading = "lazy"
 
     # See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
     # Copy the configurations you need from there and paste it here.
