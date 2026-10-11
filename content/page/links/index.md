@@ -1,10 +1,10 @@
 ---
 title: Links
 links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  - title: zzz~
+    description: not one, not two, not seven ~~
+    website: https://fuquan99666.github.io
+    image: https://fuquan99666.github.io/avatar.png
 menu:
     main: 
         weight: 4
