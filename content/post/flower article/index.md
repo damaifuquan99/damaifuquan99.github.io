@@ -3,10 +3,10 @@ title: SHY大人的花卉鉴赏论文
 date: 2026-03-06
 description: 日本动漫中的花卉原型考究
 tags: 
-    - inserted article
-categories:
     - Abstract
     - Academic
+categories:
+    - Flower
 ---
 <iframe 
     src="https://docs.google.com/viewer?url=https://damaifuquan99.github.io/articles/flower.pdf&embedded=true" 
