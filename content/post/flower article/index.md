@@ -7,6 +7,7 @@ tags:
     - Academic
 categories:
     - Flower
+weight: 2
 ---
 <iframe 
     src="https://docs.google.com/viewer?url=https://damaifuquan99.github.io/articles/flower.pdf&embedded=true" 
