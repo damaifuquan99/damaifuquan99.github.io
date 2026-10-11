@@ -1,7 +1,7 @@
 ---
 title: Treasure-House-of-King~~HOMEWORK
 description: 生物信息学学习日志|Bioinformatics Learning(作业1.1)
-slug: hello-world
+slug: Bioinformatics Learning
 date: 2026-02-26 00:00:00+0000
 image: cover.jpg
 categories:
