@@ -13,21 +13,20 @@ menu:
 
 comments: false
 ---
+欢迎各位在评论区留下自己的小站网址！
 
-To use this feature, add `links` section to frontmatter.
-
-This page's frontmatter:
-
+## 参考样式&本站信息：
 ```yaml
-links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
+title: SHY's LAND
+description: shy王之宝库
+website: https://damaifuquan99.github.io/
+image: https://damaifuquan99.github.io/avatar.png
 ```
+
+如欲在本站添加友链，请你
+
+- 确认已在你的友链添加了本站。
+- 确保你的站点活着。
+- 确保博客内容符合国家法律。
 
 `image` field accepts both local and external images.
