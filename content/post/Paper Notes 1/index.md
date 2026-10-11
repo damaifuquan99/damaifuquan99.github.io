@@ -2,7 +2,7 @@
 title: 文献阅读笔记1 | 酵母自噬缺陷突变体的分离与鉴定
 description: 自噬研究经典文献 | Isolation and characterization of autophagy-defective mutants of Saccharomyces cerevisiae
 slug: Paper Notes 1
-date: 2026-9-29 00:00:00+0000
+date: 2026-09-29 00:00:00+0000 
 image: cover.png
 categories:
     - Academic
