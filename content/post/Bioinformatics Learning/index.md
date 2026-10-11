@@ -8,7 +8,7 @@ categories:
     - Bioinformatics
 tags:
     - Academic
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
+weight: 2       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
 # **生物信息学学习日志|Bioinformatics Learning**
