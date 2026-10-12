@@ -1,5 +1,5 @@
 ---
-title: Links
+title: Links友链
 links:
   - title: zzz~
     description: not one, not two, not seven ~~
@@ -29,4 +29,3 @@ image: https://damaifuquan99.github.io/avatar.png
 - 确保你的站点活着。
 - 确保博客内容符合国家法律。
 
-`image` field accepts both local and external images.
