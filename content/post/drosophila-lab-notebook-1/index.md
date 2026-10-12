@@ -181,3 +181,5 @@ Nilson 等人在 2006 年发表的研究发现，CO₂ 麻醉会影响果蝇后�
 4. University of California, Irvine. *Drosophila Laboratory Manual*. https://flyevo.bio.uci.edu/pdf/Lab_manual.pdf
 
 > **日志说明：** 本文中的操作过程与观察结果来自当日实验记录；有关 CO₂ 麻醉和果蝇形态鉴定的解释依据所列文献。文献中的实验条件与本次课程实验不完全相同，因此相关机制解释应视为参考，而非对本次现象的确定性结论。
+
+> 图片来自网络
