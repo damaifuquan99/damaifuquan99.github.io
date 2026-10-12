@@ -1,5 +1,5 @@
 ---
-title: Links友链
+title: Links-友链
 links:
   - title: zzz~
     description: not one, not two, not seven ~~
