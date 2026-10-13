@@ -29,3 +29,4 @@ image: https://damaifuquan99.github.io/avatar.png
 - 确保你的站点活着。
 - 确保博客内容符合国家法律。
 
+{{< friend-circle >}}
