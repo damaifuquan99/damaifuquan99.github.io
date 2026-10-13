@@ -31,4 +31,3 @@ image: https://damaifuquan99.github.io/avatar.png
 
 ---
 
-{{< friend-circle >}}
