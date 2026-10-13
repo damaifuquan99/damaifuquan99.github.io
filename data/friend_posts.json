@@ -1,18 +1,82 @@
 [
   {
-    "friend": "zzz~",
-    "avatar": "https://fuquan99666.github.io/avatar.png",
-    "friendLink": "https://fuquan99666.github.io",
-    "title": "文章标题",
-    "url": "https://fuquan99666.github.io/xxx/",
+    "friend": "SHY's LAND",
+    "avatar": "https://damaifuquan99.github.io/avatar.png",
+    "friendLink": "https://damaifuquan99.github.io/",
+    "title": "文献阅读笔记2 | IL-1β 的非经典分泌途径",
+    "url": "https://damaifuquan99.github.io/p/il1b-nonclassical-secretion/",
     "date": "2026-10-13"
+  },
+  {
+    "friend": "SHY's LAND",
+    "avatar": "https://damaifuquan99.github.io/avatar.png",
+    "friendLink": "https://damaifuquan99.github.io/",
+    "title": "果蝇开放实验日志 1 | 10.12 - P 代果蝇的挑选与培养",
+    "url": "https://damaifuquan99.github.io/p/drosophila-lab-notebook-1/",
+    "date": "2026-10-12"
+  },
+  {
+    "friend": "SHY's LAND",
+    "avatar": "https://damaifuquan99.github.io/avatar.png",
+    "friendLink": "https://damaifuquan99.github.io/",
+    "title": "文献阅读笔记1 | 酵母自噬缺陷突变体的分离与鉴定",
+    "url": "https://damaifuquan99.github.io/p/paper-notes-1/",
+    "date": "2026-09-29"
   },
   {
     "friend": "zzz~",
     "avatar": "https://fuquan99666.github.io/avatar.png",
     "friendLink": "https://fuquan99666.github.io",
-    "title": "另一篇文章标题",
-    "url": "https://fuquan99666.github.io/yyy/",
-    "date": "2026-10-12"
+    "title": "CS61c_20 — MapReduce & Spark",
+    "url": "https://fuquan99666.github.io/p/cs61c_20-mapreduce-spark/",
+    "date": "2026-06-22"
+  },
+  {
+    "friend": "zzz~",
+    "avatar": "https://fuquan99666.github.io/avatar.png",
+    "friendLink": "https://fuquan99666.github.io",
+    "title": "CS61c_19 — Thread-Level Parallelism III",
+    "url": "https://fuquan99666.github.io/p/cs61c_19-thread-level-parallelism-iii/",
+    "date": "2026-06-18"
+  },
+  {
+    "friend": "zzz~",
+    "avatar": "https://fuquan99666.github.io/avatar.png",
+    "friendLink": "https://fuquan99666.github.io",
+    "title": "CS61c_18 — Thread-Level Parallelism II",
+    "url": "https://fuquan99666.github.io/p/cs61c_18-thread-level-parallelism-ii/",
+    "date": "2026-06-15"
+  },
+  {
+    "friend": "zzz~",
+    "avatar": "https://fuquan99666.github.io/avatar.png",
+    "friendLink": "https://fuquan99666.github.io",
+    "title": "CS61c_17 — Thread-Level Parallelism I",
+    "url": "https://fuquan99666.github.io/p/cs61c_17-thread-level-parallelism-i/",
+    "date": "2026-06-13"
+  },
+  {
+    "friend": "zzz~",
+    "avatar": "https://fuquan99666.github.io/avatar.png",
+    "friendLink": "https://fuquan99666.github.io",
+    "title": "CS61c_16 — Flynn Taxonomy, SIMD Instructions",
+    "url": "https://fuquan99666.github.io/p/cs61c_16-flynn-taxonomy-simd-instructions/",
+    "date": "2026-06-07"
+  },
+  {
+    "friend": "SHY's LAND",
+    "avatar": "https://damaifuquan99.github.io/avatar.png",
+    "friendLink": "https://damaifuquan99.github.io/",
+    "title": "SHY大人的花卉鉴赏论文",
+    "url": "https://damaifuquan99.github.io/p/shy%E5%A4%A7%E4%BA%BA%E7%9A%84%E8%8A%B1%E5%8D%89%E9%89%B4%E8%B5%8F%E8%AE%BA%E6%96%87/",
+    "date": "2026-03-06"
+  },
+  {
+    "friend": "SHY's LAND",
+    "avatar": "https://damaifuquan99.github.io/avatar.png",
+    "friendLink": "https://damaifuquan99.github.io/",
+    "title": "Treasure-House-of-King~~HOMEWORK",
+    "url": "https://damaifuquan99.github.io/p/bioinformatics-learning/",
+    "date": "2026-02-26"
   }
 ]
