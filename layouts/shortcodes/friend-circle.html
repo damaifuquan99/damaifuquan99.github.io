@@ -3,7 +3,7 @@
     <input class="friend-circle__search" type="search" placeholder="搜索文章或朋友" data-fc-search>
     <select class="friend-circle__select" data-fc-friend>
       <option value="">全部朋友</option>
-      {{ $items := site.Data.friend_circle }}
+      {{ $items := site.Data.friend_posts | default (slice) }}
       {{ $friends := slice }}
       {{ range $items }}
         {{ $friends = $friends | append .friend }}
