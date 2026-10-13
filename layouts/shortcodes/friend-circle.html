@@ -1,0 +1,25 @@
+<div class="friend-circle-wrap">
+  {{ $friends := site.Data.friends }}
+  {{ $posts := site.Data.friend_posts }}
+  <div class="friend-circle-grid">
+  {{ range $i, $f := $friends }}
+    <div class="friend-card" id="friend-{{ $f.id }}">
+      <a class="friend-link" href="{{ $f.website }}" target="_blank" rel="noopener">
+        <img class="friend-avatar" src="{{ $f.image }}" alt="{{ $f.title }}">
+        <div class="friend-title">{{ $f.title }}</div>
+      </a>
+      {{ with (index $posts $f.id) }}
+        {{ $latest := index . 0 }}
+        <div class="friend-latest">
+          <div class="friend-latest-title">{{ $latest.title }}</div>
+          <a class="friend-latest-link" href="{{ $latest.link }}" target="_blank" rel="noopener">查看</a>
+        </div>
+      {{ end }}
+    </div>
+  {{ end }}
+  </div>
+</div>
+
+<!-- 可选：如果你需要更复杂交互，可在 static/js/friend-circle.js 中实现弹窗/翻牌，见下文 -->
+<script src="/js/friend-circle.js" defer></script>
+<link rel="stylesheet" href="/css/friend-circle.css">
