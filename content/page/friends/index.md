@@ -1,5 +1,5 @@
 ---
-title: Friends-友链动态
+title: Friends-动态
 menu:
   main:
     weight: 4
