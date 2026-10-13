@@ -1,0 +1,24 @@
+.friend-circle-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap:16px;
+  margin:16px 0;
+}
+.friend-card{
+  background:#fff;
+  border-radius:8px;
+  padding:12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  text-align:center;
+}
+.friend-avatar{
+  width:72px;
+  height:72px;
+  object-fit:cover;
+  border-radius:50%;
+  border:2px solid #eee;
+}
+.friend-title{ margin-top:8px; font-weight:600; }
+.friend-latest{ margin-top:8px; font-size:0.9rem; color:#555; }
+.friend-latest-title{ overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
+.friend-latest-link{ display:block; margin-top:6px; color:#1e88e5; text-decoration:none; }
