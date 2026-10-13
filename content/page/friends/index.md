@@ -2,7 +2,7 @@
 title: Friends-动态
 menu:
   main:
-    weight: 4
+    weight: 5
     params:
       icon: link
 ---
