@@ -1,65 +1,127 @@
+// tools/fetch-friends-rss.js
 const fs = require('fs');
 const path = require('path');
 const YAML = require('js-yaml');
 const Parser = require('rss-parser');
 const parser = new Parser({ timeout: 15000 });
 
+const MAX_PER_FRIEND = 5;
+const GLOBAL_MAX = 500; // 合并后最大条数
+
 function guessRssFromWebsite(website){
-  if(!website) return null;
+  if(!website) return [];
   try{
     const u = new URL(website);
-    // 常见 location: /index.xml, /atom.xml, /feed.xml, /feed
     return [
       `${u.origin}/index.xml`,
       `${u.origin}/atom.xml`,
       `${u.origin}/feed.xml`,
       `${u.origin}/feed`,
-      `${u.origin}/rss.xml`
+      `${u.origin}/rss.xml`,
+      `${u.origin}/post/index.xml`,
+      `${u.origin}/p/index.xml`
     ];
-  }catch(e){ return null; }
+  }catch(e){
+    return [];
+  }
 }
 
 async function tryParseMany(urls){
   for(const url of urls){
     try{
       const feed = await parser.parseURL(url);
-      return { feed, url };
+      // consider valid if it has items
+      if(feed && (feed.items || []).length > 0) return { feed, url };
     }catch(e){
-      // continue
+      // ignore
     }
   }
   throw new Error('no feed parsed');
 }
 
+function normalizeDate(d){
+  if(!d) return null;
+  const dt = new Date(d);
+  if(isNaN(dt)) return null;
+  // YYYY-MM-DD
+  return dt.toISOString().slice(0,10);
+}
+
+function ensureDir(p){
+  const dir = path.dirname(p);
+  if(!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+}
+
 async function main(){
   const root = process.cwd();
-  const dataPath = path.join(root, 'data', 'friends.yml');
-  if(!fs.existsSync(dataPath)){ console.error('data/friends.yml not found'); process.exit(1); }
-  const raw = fs.readFileSync(dataPath, 'utf8');
+  const friendsPath = path.join(root, 'data', 'friends.yml');
+  if(!fs.existsSync(friendsPath)){ console.error('data/friends.yml not found'); process.exit(1); }
+  const raw = fs.readFileSync(friendsPath, 'utf8');
   const friends = YAML.load(raw);
-  const out = {};
+
+  const outItems = [];
+  const seen = new Set();
+
   for(const f of friends){
-    const candidateUrls = [];
-    if(f.rss) candidateUrls.push(f.rss);
-    const guesses = guessRssFromWebsite(f.website);
-    if(guesses) candidateUrls.push(...guesses);
+    const id = f.id || f.title || f.website || Math.random().toString(36).slice(2,8);
+    const displayName = f.title || id;
+    const avatar = f.image || f.avatar || '';
+    const friendLink = f.website || '';
+    const candidate = [];
+
+    if(f.rss) candidate.push(f.rss);
+    candidate.push(...guessRssFromWebsite(f.website));
+
+    let parsed = null;
     try{
-      const { feed } = await tryParseMany(candidateUrls);
-      const items = (feed.items || []).slice(0,5).map(it=>({
-        title: it.title || '(no title)',
-        link: it.link || it.guid || '',
-        pubDate: it.pubDate || it.isoDate || '',
-        contentSnippet: it.contentSnippet || (it.content || '').slice(0,140)
-      }));
-      out[f.id] = items;
-      console.log(`fetched ${f.id}: ${items.length} items`);
+      const res = await tryParseMany(candidate);
+      parsed = res.feed;
+      // map items, take up to MAX_PER_FRIEND
+      const items = (parsed.items || []).slice(0, MAX_PER_FRIEND).map(it => {
+        const url = it.link || it.guid || '';
+        const title = it.title || '(no title)';
+        const pubDate = normalizeDate(it.pubDate || it.isoDate || it.pubdate);
+        return {
+          friend: displayName,
+          avatar,
+          friendLink,
+          title,
+          url,
+          date: pubDate
+        };
+      }).filter(it => it.url); // require url
+
+      // dedupe per friend
+      for(const it of items){
+        if(seen.has(it.url)) continue;
+        seen.add(it.url);
+        outItems.push(it);
+      }
+
+      console.log(`fetched ${displayName}: ${items.length} items from ${parsed.link || 'feed'}`);
     }catch(err){
-      console.warn(`failed fetch for ${f.id}: ${err.message}`);
-      out[f.id] = [];
+      console.warn(`no feed for ${displayName} (${f.website}): ${err.message}`);
     }
   }
+
+  // sort by date desc (nulls last)
+  outItems.sort((a,b)=>{
+    const da = a.date || '';
+    const db = b.date || '';
+    if(da === db) return 0;
+    if(!da) return 1;
+    if(!db) return -1;
+    return db.localeCompare(da);
+  });
+
+  const final = outItems.slice(0, GLOBAL_MAX);
   const outPath = path.join(root, 'data', 'friend_posts.json');
-  fs.writeFileSync(outPath, JSON.stringify(out, null, 2), 'utf8');
-  console.log('wrote', outPath);
+  ensureDir(outPath);
+  fs.writeFileSync(outPath, JSON.stringify(final, null, 2), 'utf8');
+  console.log('Wrote', outPath, 'items:', final.length);
 }
-main().catch(err=>{ console.error(err); process.exit(1); });
+
+main().catch(err=>{
+  console.error(err);
+  process.exit(1);
+});
