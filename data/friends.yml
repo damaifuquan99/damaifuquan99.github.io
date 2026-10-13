@@ -1,14 +1,12 @@
-# 每项必须包含唯一 id, title, website, image, 可选 rss 和 description
-- id: shy
-  title: SHY's LAND
-  description: shy王之宝库
-  website: https://damaifuquan99.github.io/
-  image: https://damaifuquan99.github.io/avatar.png
-  rss: https://damaifuquan99.github.io/index.xml
-
 - id: zzz
   title: zzz~
-  description: not one, not two, not seven ~~
   website: https://fuquan99666.github.io
   image: https://fuquan99666.github.io/avatar.png
   rss: https://fuquan99666.github.io/index.xml
+
+# 可以继续列出其他朋友
+- id: shy
+  title: SHY's LAND
+  website: https://damaifuquan99.github.io/
+  image: https://damaifuquan99.github.io/avatar.png
+  rss: https://damaifuquan99.github.io/index.xml
