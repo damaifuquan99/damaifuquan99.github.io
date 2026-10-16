@@ -11,6 +11,7 @@ comments: false
 
 ## 吾家有狗初长成！
 
+
 ![Image 1](1.jpg)
 
 ![Image 2](2.jpg)
@@ -25,7 +26,7 @@ comments: false
 
 ![Image 7](7.jpg)
 
-![Image 8](mmexport1789552786699)
+![Image 8](8.jpg)
 
 ![Image 9](9.jpg)
 
