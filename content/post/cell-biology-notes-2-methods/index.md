@@ -639,4 +639,4 @@ weight: 2
 5. Rothman, J. E. (2014). The principle of membrane fusion in the cell (Nobel Lecture). *Angewandte Chemie International Edition*, 53(47), 12676–12694.
 6. Zhang, M., et al. (2020). A translocated channel for unconventional protein secretion. *Cell*, 182(4), 917–932.
 
-> **笔记说明：** 课件强调“原理与主要应用”，因此笔记侧重于每种方法“为什么这样设计”和“能解决什么问题”，具体操作步骤仅作简要说明。考试中若涉及方法选择，应从样品类型（活细胞/固定样品）、分辨率需求、是否需要标记、是否定量等角度分析。
+> **说明：** 侧重于每种方法“为什么这样设计”和“能解决什么问题”，具体操作步骤仅作简要说明。考试中若涉及方法选择，应从样品类型（活细胞/固定样品）、分辨率需求、是否需要标记、是否定量等角度分析。
