@@ -3,6 +3,22 @@
     "friend": "SHY's LAND",
     "avatar": "https://damaifuquan99.github.io/avatar.png",
     "friendLink": "https://damaifuquan99.github.io/",
+    "title": "细胞生物学学习笔记 2 | 细胞生物学研究方法：从显微成像到基因编辑",
+    "url": "https://damaifuquan99.github.io/p/cell-biology-notes-2-methods/",
+    "date": "2026-10-18"
+  },
+  {
+    "friend": "SHY's LAND",
+    "avatar": "https://damaifuquan99.github.io/avatar.png",
+    "friendLink": "https://damaifuquan99.github.io/",
+    "title": "细胞生物学学习笔记 1 | 细胞概论：从细胞学说 to 原核与真核",
+    "url": "https://damaifuquan99.github.io/p/cell-biology-notes-1-introduction/",
+    "date": "2026-10-17"
+  },
+  {
+    "friend": "SHY's LAND",
+    "avatar": "https://damaifuquan99.github.io/avatar.png",
+    "friendLink": "https://damaifuquan99.github.io/",
     "title": "果蝇开放实验日志 2 | 10.16-亲本转移与幼虫观察",
     "url": "https://damaifuquan99.github.io/p/drosophila-lab-notebook-2/",
     "date": "2026-10-16"
@@ -22,14 +38,6 @@
     "title": "果蝇开放实验日志 1 | 10.12 - P 代果蝇的挑选与培养",
     "url": "https://damaifuquan99.github.io/p/drosophila-lab-notebook-1/",
     "date": "2026-10-12"
-  },
-  {
-    "friend": "SHY's LAND",
-    "avatar": "https://damaifuquan99.github.io/avatar.png",
-    "friendLink": "https://damaifuquan99.github.io/",
-    "title": "文献阅读笔记1 | 酵母自噬缺陷突变体的分离与鉴定",
-    "url": "https://damaifuquan99.github.io/p/paper-notes-1/",
-    "date": "2026-09-29"
   },
   {
     "friend": "zzz~",
@@ -70,13 +78,5 @@
     "title": "CS61c_16 — Flynn Taxonomy, SIMD Instructions",
     "url": "https://fuquan99666.github.io/p/cs61c_16-flynn-taxonomy-simd-instructions/",
     "date": "2026-06-07"
-  },
-  {
-    "friend": "SHY's LAND",
-    "avatar": "https://damaifuquan99.github.io/avatar.png",
-    "friendLink": "https://damaifuquan99.github.io/",
-    "title": "SHY大人的花卉鉴赏论文",
-    "url": "https://damaifuquan99.github.io/p/shy%E5%A4%A7%E4%BA%BA%E7%9A%84%E8%8A%B1%E5%8D%89%E9%89%B4%E8%B5%8F%E8%AE%BA%E6%96%87/",
-    "date": "2026-03-06"
   }
 ]
