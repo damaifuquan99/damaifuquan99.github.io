@@ -2,7 +2,7 @@
 title: "细胞生物学学习笔记 2 | 细胞生物学研究方法：从显微成像到基因编辑"
 description: "Lecture 2 课程复习笔记 | 荧光与电子显微镜、荧光探针、同位素示踪、细胞组分分离、蛋白质纯化与互作、分子生物学与遗传学方法"
 slug: "cell-biology-notes-2-methods"
-date: 2026-10-18 00:00:00+0000
+date: 2026-10-18 04:00:00+0000
 categories:
   - Course Notes
 tags:
