@@ -2,10 +2,10 @@
 title: "细胞生物学学习笔记 6 | 细胞内膜系统、蛋白质分选与膜泡运输"
 description: "Chapter 6 课程复习笔记 | 区室化、蛋白质分选与共翻译转运、内质网与高尔基体功能、囊泡运输机制、胞吞与胞内体途径"
 slug: "cell-biology-notes-6-membrane-trafficking"
-date: 2026-10-21 07:01:00+0000
-categories:
+date: 2026-10-21 01:01:00+0000
+categories: 
   - Course Notes
-tags:
+tags: 
   - Cell Biology
   - Protein Sorting
   - Membrane Trafficking
