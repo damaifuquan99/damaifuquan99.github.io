@@ -8,7 +8,7 @@ categories:
 tags:
   - Cell Biology
   - Membrane Transport
-  - Na/K Pump
+  - NaK Pump
 weight:2
 ---
 
