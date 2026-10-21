@@ -9,7 +9,7 @@ tags:
   - Cell Biology
   - Membrane Transport
   - NaK Pump
-weight:2
+weight: 2
 ---
 
 # **细胞生物学学习笔记 5 | 物质的跨膜运输：从被动扩散到主动泵**
