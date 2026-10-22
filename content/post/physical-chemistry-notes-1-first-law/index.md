@@ -3,9 +3,9 @@ title: "物理化学学习笔记 1 | 第一章 热力学第一定律：从能量
 description: "Lecture 1–2 课程复习笔记 | 系统与环境、平衡态与状态函数、体积功与可逆过程、焓与热容、理想气体绝热过程、相变与热化学"
 slug: "physical-chemistry-notes-1-first-law"
 date: 2026-10-22 8:00:00+0000
-categories:
+categories: 
   - Course Notes
-tags:
+tags: 
   - Physical Chemistry
   - Thermodynamics
   - First Law
