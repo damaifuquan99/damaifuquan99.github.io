@@ -640,3 +640,5 @@ C → CO2(g)    H → H2O(l)    S → SO2(g)    N → N2(g)    Cl → HCl(aq)
 5. Atkins, P., & de Paula, J. *Physical Chemistry*, 11th Ed. Oxford University Press.
 
 > **笔记说明：** 本笔记依据 2026 年秋季物理化学 B 第 1–2 讲课件整理，公式符号沿用课件规定（系统对外做功 W > 0，ΔU = Q − W）。期中考范围含前三章，判断题需写明理由，选择题含单选与多选。
+
+---
