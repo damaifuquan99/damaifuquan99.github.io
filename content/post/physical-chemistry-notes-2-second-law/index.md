@@ -3,9 +3,9 @@ title: "物理化学学习笔记 2 | 第二章 热力学第二定律：从自发
 description: "Lecture 3–4 课程复习笔记 | 自发过程与热功不等价、卡诺循环、熵与 Clausius 不等式、熵变计算、第三定律、A 与 G 判据、基本关系式与 Maxwell 关系"
 slug: "physical-chemistry-notes-2-second-law"
 date: 2026-10-22 10:00:00+0000
-categories:
+categories: 
   - Course Notes
-tags:
+tags: 
   - Physical Chemistry
   - Thermodynamics
   - Second Law
@@ -718,3 +718,5 @@ p = pθ + 2862/1.895×10⁻⁶ ≈ 1.5×10⁹ Pa
 5. Atkins, P., & de Paula, J. *Physical Chemistry*, 11th Ed. Oxford University Press.
 
 > **笔记说明：** 本笔记依据 2026 年秋季物理化学 B 第 3–4 讲课件整理，符号与判据表述沿用课件（系统对外做功 W > 0，ΔU = Q − W）。期中考范围含前三章，判断题需写明理由，热力学证明题常考 Gibbs 公式与 Maxwell 关系的组合。
+
+---
