@@ -2,7 +2,7 @@
 title: 文献阅读笔记3 | SNARE 蛋白编码的膜融合区室特异性
 description: 区室特异性是否写在 SNARE 自己身上 | Compartmental specificity of cellular membrane fusion encoded in SNARE proteins
 slug: snare-compartmental-specificity
-date: 2026-10-22 21:00:00+0000
+date: 2026-10-22 15:00:00+0000
 image: cover.jpg
 categories:
     - Paper Notes
