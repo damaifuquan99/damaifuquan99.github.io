@@ -2,13 +2,13 @@
 title: "发育生物学学习笔记 7 | 肢体发育"
 description: "Lecture 7 课程笔记：肢芽起始、AER–FGF8 与 ZPA–Shh 构成的三轴图式、Hox 与肢体演化。"
 slug: dev-bio-notes-7-limb-development
-date: 2026-11-11 08:35:00+0800
+date: 2026-11-07 08:35:00+0800
 categories:
     - Course Notes
 tags:
     - Developmental Biology
     - Genetics
-weight: 7
+weight: 2
 ---
 
 > **对应课件：** `7 limb 2025.pdf`（50 页）
