@@ -2,13 +2,13 @@
 title: "发育生物学学习笔记 6 | 中胚层与内胚层器官的发生"
 description: "Lecture 6 课程笔记：体节与分节钟、骨骼与肌肉、肾、心脏、血管与血液，以及胰、肝、肺、肠的发生。全课最长一讲。"
 slug: dev-bio-notes-6-mesoendoderm
-date: 2026-11-11 08:30:00+0800
+date: 2026-11-06 08:30:00+0800
 categories:
     - Course Notes
 tags:
     - Developmental Biology
     - Organogenesis
-weight: 6
+weight: 2
 ---
 
 > **对应课件：** `6 mesoendoderm 2025.pdf`（150+ 页，全课最长）
