@@ -2,13 +2,13 @@
 title: "发育生物学学习笔记 10 | 出生后的生长与衰老"
 description: "Lecture 10 课程笔记：昆虫与两栖类变态的激素调控、出生后生长、干细胞衰老与寿命调控。"
 slug: dev-bio-notes-10-postembryonic-ageing
-date: 2026-11-11 08:50:00+0800
+date: 2026-11-10 08:50:00+0800
 categories:
     - Course Notes
 tags:
     - Developmental Biology
     - Ageing
-weight: 10
+weight: 2
 ---
 
 > **对应课件：** `10 postembryo 2025.pdf`（56 页）
