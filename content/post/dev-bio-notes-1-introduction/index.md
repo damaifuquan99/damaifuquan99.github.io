@@ -2,14 +2,14 @@
 title: "发育生物学学习笔记 1 | 序言：基本原理、模式动物、信号通路与研究方法"
 description: "Lecture 1 课程笔记：先成论与后成论、细胞命运四术语、常用模式动物、六条发育信号通路、谱系示踪与类器官。全课的工具箱。"
 slug: dev-bio-notes-1-introduction
-date: 2026-11-11 08:05:00+0800
+date: 2026-11-01 08:05:00+0800
 categories:
     - Course Notes
 tags:
     - Developmental Biology
     - Genetics
     - Academic
-weight: 1
+weight: 2
 ---
 
 > **对应课件：** `1 introduction 2025.pdf`（101 页）
