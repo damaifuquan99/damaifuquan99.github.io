@@ -2,7 +2,7 @@
 title: "发育生物学学习笔记 2 | 卵裂与囊胚形成"
 description: "Lecture 2 课程笔记：卵裂类型与机制、中囊胚转换（MZT）、囊胚形成、母源因子与胞质决定子的区域化分配。"
 slug: dev-bio-notes-2-cleavage
-date: 2026-11-11 08:10:00+0800
+date: 2026-11-02 08:10:00+0800
 categories:
     - Course Notes
 tags:
