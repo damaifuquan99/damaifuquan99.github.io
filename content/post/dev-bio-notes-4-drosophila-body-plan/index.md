@@ -2,14 +2,14 @@
 title: "发育生物学学习笔记 4 | 果蝇体轴的分子机制"
 description: "Lecture 4 课程笔记：果蝇前–后轴（bicoid/nanos）与背–腹轴（Toll/NF-κB）、gap / pair-rule / segment polarity 基因级联、Hox 共线性。"
 slug: dev-bio-notes-4-drosophila-body-plan
-date: 2026-11-11 08:20:00+0800
+date: 2026-11-04 08:20:00+0800
 categories:
     - Course Notes
 tags:
     - Developmental Biology
     - Drosophila
     - Genetics
-weight: 4
+weight: 2
 ---
 
 > **对应课件：** `4 body plan 2025.pdf`（58 页）
