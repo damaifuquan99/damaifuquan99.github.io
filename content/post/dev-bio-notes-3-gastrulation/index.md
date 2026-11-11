@@ -2,14 +2,14 @@
 title: "发育生物学学习笔记 3 | 原肠作用与图式形成"
 description: "Lecture 3 课程笔记：原肠作用的五种细胞运动、组织者与 Spemann–Mangold 移植、Huluwa 与 Nodal 梯度、三胚层图式形成。"
 slug: dev-bio-notes-3-gastrulation
-date: 2026-11-11 08:15:00+0800
+date: 2026-11-03 08:15:00+0800
 categories:
     - Course Notes
 tags:
     - Developmental Biology
     - Embryology
     - Genetics
-weight: 3
+weight: 2
 ---
 
 > **对应课件：** `3 gastrulation 2025.pdf`（82 页）
