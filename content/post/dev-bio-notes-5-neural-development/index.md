@@ -2,13 +2,13 @@
 title: "发育生物学学习笔记 5 | 神经系统的发育"
 description: "Lecture 5 课程笔记：神经诱导与默认模型、神经管闭合、神经嵴迁移、轴突导向与视网膜拓扑投射。"
 slug: dev-bio-notes-5-neural-development
-date: 2026-11-11 08:25:00+0800
+date: 2026-11-05 08:25:00+0800
 categories:
     - Course Notes
 tags:
     - Developmental Biology
     - Neurobiology
-weight: 5
+weight: 2
 ---
 
 > **对应课件：** `5 neuron 2024.pdf`（92 页）
