@@ -8,7 +8,7 @@ categories:
 tags:
     - Developmental Biology
     - Academic
-weight: 11
+weight: 2
 ---
 
 > 本表由 `前辈笔记/信号分子及其功能总结.pdf`（学长整理）+ 十章笔记交叉核对而成。
