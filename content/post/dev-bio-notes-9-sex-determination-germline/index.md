@@ -2,13 +2,13 @@
 title: "发育生物学学习笔记 9 | 性别决定与生殖细胞"
 description: "Lecture 9 课程笔记：遗传型与环境型性别决定、SRY/Sox9、X 剂量补偿，生殖细胞的起源、迁移与减数分裂启动。"
 slug: dev-bio-notes-9-sex-determination-germline
-date: 2026-11-11 08:45:00+0800
+date: 2026-11-09 08:45:00+0800
 categories:
     - Course Notes
 tags:
     - Developmental Biology
     - Genetics
-weight: 9
+weight: 2
 ---
 
 > **对应课件：** `9 sex-PGC 2025.pdf`（105 页）
