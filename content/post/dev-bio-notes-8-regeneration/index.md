@@ -2,14 +2,14 @@
 title: "发育生物学学习笔记 8 | 组织器官再生"
 description: "Lecture 8 课程笔记：涡虫、水螅、斑马鱼、蝾螈与哺乳动物再生的细胞来源、芽基与关键信号。"
 slug: dev-bio-notes-8-regeneration
-date: 2026-11-11 08:40:00+0800
+date: 2026-11-08 08:40:00+0800
 categories:
     - Course Notes
 tags:
     - Developmental Biology
     - Regeneration
     - Stem Cell
-weight: 8
+weight: 2
 ---
 
 > **对应课件：** `8 regeneration 2025.pdf`（95 页）
