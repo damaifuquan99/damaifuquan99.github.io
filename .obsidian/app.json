@@ -1,0 +1,15 @@
+{
+  "showLineNumber": false,
+  "attachmentFolderPath": ".",
+  "safeMode": false,
+  "useMarkdownLinks": false,
+  "promptDelete": false,
+  "defaultViewMode": "source",
+  "showUnsupportedFiles": true,
+  "showFrontmatter": "always",
+  "alwaysUpdateLinks": true,
+  "spellcheck": false,
+  "readableLineLength": true,
+  "livePreview": true,
+  "newFileLocation": "current"
+}
