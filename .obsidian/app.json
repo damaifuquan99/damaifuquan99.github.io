@@ -11,5 +11,10 @@
   "spellcheck": false,
   "readableLineLength": true,
   "livePreview": true,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "userIgnoreFilters": [
+    "public/",
+    "resources/",
+    ".git/"
+  ]
 }
